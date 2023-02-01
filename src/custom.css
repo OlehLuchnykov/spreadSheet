@@ -1,0 +1,43 @@
+.designer {
+    height: calc(100% - 15px);
+}
+
+.ribbon-button-welcome {
+    background-image: url('./welcome.png');
+    background-size: 35px 35px;
+}
+
+.wrapper .designer.active .ribbon {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.wrapper .designer.active .top-panels {
+    position: fixed;
+    top: 146px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+.wrapper .designer .ribbon {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    z-index: -1;
+}
+
+.wrapper .designer .top-panels {
+    position: fixed;
+    top: 146px;
+    width: 100%;
+    background-color: red;
+    z-index: -1;
+}
+
+.wrapper .designer:first-child .spreadWrapper {
+    padding-top: 184px;
+}
